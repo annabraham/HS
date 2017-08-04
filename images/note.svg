@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Orders" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Cart" transform="translate(-1063.000000, -428.000000)" stroke="#484848" stroke-width="1.3">
+            <g id="Group-4" transform="translate(1064.000000, 429.000000)">
+                <path d="M10.5,2.5 L2,2.5 C1.172,2.5 0.5,3.172 0.5,4 L0.5,23 C0.5,23.828 1.172,24.5 2,24.5 L8.818,24.5" id="Stroke-1693"></path>
+                <path d="M11.1943,3.6377 L4.9853,5.4287 C4.1033,5.6827 3.5003,6.4637 3.5003,7.3487 C3.5003,7.5437 3.5293,7.7387 3.5883,7.9247 L8.6263,24.0717 C8.8903,24.9187 9.7023,25.4997 10.6233,25.4997 C10.8253,25.4997 11.0273,25.4717 11.2213,25.4147 L28.0143,20.5717 C28.8963,20.3177 29.5003,19.5357 29.5003,18.6517 C29.5003,18.4557 29.4703,18.2617 29.4123,18.0757 L24.3743,1.9287 C24.1093,1.0807 23.2983,0.4997 22.3773,0.4997 C22.1743,0.4997 21.9723,0.5287 21.7783,0.5847 L13.8833,2.8617" id="Stroke-1695"></path>
+                <path d="M14,2.25 C14,3.217 13.217,4 12.25,4 C11.283,4 10.5,3.217 10.5,2.25 C10.5,1.283 11.283,0.5 12.25,0.5 C13.217,0.5 14,1.283 14,2.25 Z" id="Stroke-1697"></path>
+                <path d="M13.1436,3.7549 L14.4996,5.4999" id="Stroke-1699"></path>
+            </g>
+        </g>
+    </g>
+</svg>

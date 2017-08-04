@@ -1,0 +1,678 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>HMS</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<style> @media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}</style>
+
+
+<body>
+
+<!--Start Navigation-->
+
+<div class="combinednav navbar-fixed-top">
+  <nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header navbar-default__header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>    
+  </div>
+
+  <p class="navbar-text"><img class="phonespace" src="images/phone.svg"> (800) 299-9277</p>
+  <div class="navbar-collapse navbar-default__collapse collapse">
+
+    <ul class="nav navbar-nav navbar-center">
+        <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="facilityMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Select a Hospice Facility
+
+
+    <span id="arrow" class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="facilityMenu">
+    <li><a href="#">Facility 1</a></li>
+    <li><a href="#">Facility 2</a></li>
+    <li><a href="#">Facility 3</a></li>
+  </ul>
+  </div>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown">User <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+            </li>
+
+
+    </ul>
+
+
+  </div>
+  </nav>
+  <nav class="navbar navbar-light" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+      <a class="navbar-brand " href="#">
+        <img src="images/logo.png" height="50">
+      </a>   
+  </div>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-center">
+
+    </ul>
+    <ul id="navlinks" class="nav navbar-nav navbar-right" style="margin-right: 5px;">
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">Patients</a></li>
+        <li><a href="#">Reports</a></li>
+        <li><a href="#">Customer Care</a></li>
+        <li><a href="#">Facilities</a></li>
+        <li><a href="#">Nurses</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><img class="truckspace" src="images/vertical.svg"></li>
+        <li><a href="#" style="color:#003E87; font-weight: bold; border-style:none"><img class="alignment" src="images/truck.svg" height="25"><div class="truck-badge">3</div></a></li>
+    </ul>
+  </div>
+  </nav>
+</div>
+  <!--End Navigation-->
+
+  <header>Page Header</header>
+  <pre><code>&lt;header&gt;Page Header&lt;header&gt;
+  </code></pre>
+
+
+
+  <div class="container-fluid">
+
+    <div class="col-lg-12">
+       <div class="row">
+          <h1>Documentation</h1>
+          <h4>This pattern library utilizes <a href="http://getbootstrap.com/components/">Bootstrap components</a>. You will need to reference the Bootstrap CDN which includes the latest minified stylesheet, and JavaScript file. See documentation <a href="http://getbootstrap.com/getting-started/">here</a> for additional info on getting started.  </h4>
+      </div>
+    </div>
+
+
+  <div class="row">
+        <div class="col-md-1 col-md-offset-2">
+        <h2>Icons</h2>
+        </div>
+  </div>
+
+  <div class="row" style="text-align: center">
+      <div class="col-md-1 col-md-offset-2">
+      <img src="images/patient.svg">
+      <div>Patient</div>
+      </div>
+
+      <div class="col-md-1">
+      <img src="images/inventory.svg">
+      <div>Inventory</div>
+      </div>
+
+      <div class="col-md-1">
+      <img src="images/location.svg">
+      <div>Location</div>
+      </div>
+
+      <div class="col-md-1">
+      <img src="images/remove.svg">
+      <div>Remove</div>
+      </div>
+
+      <div class="col-md-1">
+      <img src="images/phone.svg">
+      <div>Phone</div>
+      </div>
+
+      <div class="col-md-1">
+      <img src="images/heart.svg">
+      <div>Heart</div>
+      </div>
+
+      <div class="col-md-1">
+      <img src="images/heartfilled.svg">
+      <div>Heart - Filled</div>
+      </div>
+  </div>
+
+    <div class="row buffer" style="text-align: center">
+      <div class="col-md-1 col-md-offset-2">
+      <img src="images/clock.svg">
+      <div>Clock</div>
+      </div>
+
+      <div class="col-md-1">
+      <img src="images/nurse.svg">
+      <div>Nurse</div>
+      </div>
+
+      <div class="col-md-1">
+      <img src="images/note.svg">
+      <div>Reason</div>
+      </div>
+
+      <div class="col-md-1">
+      <img src="images/question.svg">
+      <div>Question</div>
+      </div>
+
+      <div class="col-md-1">
+      <img src="images/check.svg">
+      <div>Check</div>
+      </div>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-lg-offset-2">
+          <h2>Text</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2 col-lg-offset-2">
+        <div>Regular</div>
+         <pre><code>&lt;div&gt;Regular&lt;/div&gt;</code></pre>
+      </div>
+
+      <div class="col-lg-2">
+        <a href="#">Link</a>
+         <pre><code>&lt;href="#"&gt;Text Link&lt;/a&gt;</code></pre>
+      </div>
+
+      <div class="col-lg-2">
+        <b>Bold</b>
+         <pre><code>&lt;b&gt;Bold&lt;/b&gt;</code></pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-2">
+      <h2>Headings</h2>
+        <h1>Heading 1</h1>
+         <pre><code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code></pre>
+
+         <h2>Heading 2</h2>
+         <pre><code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code></pre>
+
+         <h2>Heading 3</h2>
+         <pre><code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code></pre>
+
+         <h3>Heading 4</h3>
+         <pre><code>&lt;h4&gt;Heading 4&lt;/h4&gt;</code></pre>
+
+         <h4>Heading 5</h4>
+         <pre><code>&lt;h5&gt;Heading 5&lt;/h5&gt;</code></pre>
+
+         <h5>Heading 6</h5>
+         <pre><code>&lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+        <h2>Dropdown</h2>
+          <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Dropdown
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+          </div>
+
+           <pre><code>&lt;div class="dropdown"&gt;
+  &lt;button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"&gt;
+      Dropdown
+    &lt;span class="caret"&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenu1"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+    &lt;li role="separator" class="divider"&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+        <h2>Buttons</h2>
+        </div>
+
+        <div class="col-lg-4 col-lg-offset-2">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <pre><code>&lt;button type="button" class="btn btn-primary"&gt;Primaruy&lt;button&gt;</code></pre>
+        </div>
+
+        <div class="col-lg-4">
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <pre><code>&lt;button type="button" class="btn btn-secondary"&gt;Secondary&lt;button&gt;</code></pre>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+      <h2>Card</h2>
+      <div class="card">
+
+      <img src="images/blank.svg">
+      <h5>Title</h5>
+
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+      <h2>Tabs</h2>
+
+      <ul class="nav nav-tabs">
+        <li class="active">
+          <a class="active" href="#1" data-toggle="tab">Tab 1</a></li>
+        <li><a href="#2" data-toggle="tab">Tab 2</a></li>
+      </ul>
+
+      <div class="tab-content ">
+        <div class="tab-pane active" id="1">
+          <p>Content 1</p>
+        </div>
+        <div class="tab-pane" id="2">
+          <p>Content 2</p>
+        </div>
+      </div>
+
+        <pre><code>&lt;ul class="nav nav-tabs"&gt;
+  &lt;li class="active"&gt;
+    &lt;a class="active" href="#1" data-toggle="tab"&gt;Tab 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#2" data-toggle="tab"&gt;Tab 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class="tab-content "&gt;
+  &lt;div class="tab-pane active" id="1"&gt;
+    &lt;p&gt;Content 1&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="tab-pane" id="2"&gt;
+    &lt;p&gt;Content 2&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+      <h2>Search bar</h2>
+        <form class="navbar-form" role="search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+                <button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+        </div>
+        </form>
+
+         <pre><code>&lt;form class="navbar-form" role="search"&gt;
+  &lt;div class="input-group"&gt;
+    &lt;input type="text" class="form-control" placeholder="Search"&gt;
+    &lt;div class="input-group-btn"&gt;&lt;button class="btn btn-primary" type="submit"&gt;&lt;i class="glyphicon glyphicon-search"&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Panel</h2>
+
+        <div class="panel"> 
+          Text goes here.
+        </div>
+        <pre><code>&lt;div class="panel"&gt;Text goes here.&lt;/div&gt;</code></pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8  col-lg-offset-2">
+        <h2>Table - Striped</h2>
+
+         <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Col 1 <i class="fa fa-sort" aria-hidden="true"></i></th>
+              <th>Col 2 <i class="fa fa-sort" aria-hidden="true"></i></th>
+              <th>Col 3 <i class="fa fa-sort" aria-hidden="true"></i></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Row 1</td>
+              <td>Row 1</td>
+              <td>Row 1</td>
+            </tr>
+            <tr>
+              <td>Row 2</td>
+              <td>Row 2</td>
+              <td>Row 2</td>
+            </tr>
+            <tr>
+              <td>Row 3</td>
+              <td>Row 3</td>
+              <td>Row 3</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <pre><code>&lt;table class="table table-striped"&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Col 1 &lt;i class="fa fa-sort" aria-hidden="true"&gt;&lt;/i&gt;&lt;/th&gt;
+    &lt;th&gt;Col 2 &lt;i class="fa fa-sort" aria-hidden="true"&gt;&lt;/i&gt;&lt;/th&gt;
+    &lt;th&gt;Col 3 &lt;i class="fa fa-sort" aria-hidden="true"&gt;&lt;/i&gt;&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Row 1&lt;/td&gt;
+    &lt;td&gt;Row 1&lt;/td&gt;
+    &lt;td&gt;Row 1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Row 2&lt;/td&gt;
+    &lt;td&gt;Row 2&lt;/td&gt;
+    &lt;td&gt;Row 2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Row 3&lt;/td&gt;
+    &lt;td&gt;Row 3&lt;/td&gt;
+    &lt;td&gt;Row 3&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8  col-lg-offset-2">
+          <h2>Table - Default</h2>
+
+           <table class="table default">
+            <thead>
+              <tr>
+                <th class="tbl-heading">Col 1 </th>
+                <th class="tbl-heading">Col 2</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td colspan="2" class="td-title">Title</td>
+              </tr>
+              <tr>
+              <tr>
+                <td>Row 1</td>
+                <td>Row 1</td>
+              </tr>
+              <tr>
+                <td>Row 2</td>
+                <td>Row 2</td>
+              </tr>
+              <tr>
+                <td>Row 3</td>
+                <td>Row 3</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <pre><code>&lt;table class="table default"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th class="tbl-heading"&gt;Col 1 &lt;/th&gt;
+      &lt;th class="tbl-heading"&gt;Col 2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td colspan="2" class="td-title"&gt;Title&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Row 1&lt;/td&gt;
+      &lt;td&gt;Row 1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Row 2&lt;/td&gt;
+      &lt;td&gt;Row 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Row 3&lt;/td&gt;
+      &lt;td&gt;Row 3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+        </div>
+      </div>
+    </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8 col-lg-offset-2">
+        <a href="#">Show More</a><span class="caret"></span>
+
+        <pre><code>&lt;a href="#"&gt;Show More&lt;/a&gt;&lt;span class="caret"&gt;&lt;/span&gt;</code></pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row buffer">
+      <div class="col-lg-8 col-lg-offset-2">
+      <h2>Cart</h2>
+        <div class="cart">
+        <img src="images/cartcheck.png" height="70">
+        <h4>X items added</h4>
+        <h4>for Y</h4>
+
+        <div class="row"> <button type="button" class="btn btn-primary">View Cart</button></div>
+        <hr>
+        
+        <div class="row"> 
+          <div class="col-xs-2 col-xs-offset-1" style="text-align:left"><img src="images/concentrator.svg"></div> 
+
+          <div class="col-xs-8 col-xs-offset-1" style="text-align:left">
+            <div class="row">Portable O2 Concentrator</div>
+            <div class="row small">QTY:2 </div>
+          </div>
+        </div>
+        </div>
+
+        <pre><code>&lt;div class="cart"&gt;
+  &lt;img src="images/cartcheck.png" height="70"&gt;
+    &lt;h4&gt;X items added&lt;/h4&gt;
+    &lt;h4&gt;for Y&lt;/h4&gt;
+
+    &lt;div class="row"&gt;
+      &lt;button type="button" class="btn btn-primary"&gt;View Cart&lt;/button&gt;&lt;/div&gt;
+    &lt;hr&gt;
+
+    &lt;div class="row"&gt; 
+    &lt;div class="col-xs-2 col-xs-offset-1" style="text-align:left"&gt;&lt;img src="images/concentrator.svg"&gt;&lt;/div&gt; 
+
+    &lt;div class="col-xs-8 col-xs-offset-1" style="text-align:left"&gt;
+      &lt;div class="row"&gt;Portable O2 Concentrator&lt;/div&gt;
+      &lt;div class="row small"&gt;QTY:2 &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row buffer">
+      <div class="col-md-8 col-lg-offset-2">
+        <h2>Carousel</h2>
+
+          <div class='row'>
+          <div class='col-xs-8'>
+            <div class="carousel slide media-carousel container" id="media" data-interval="false">
+              <div class="carousel-inner">
+                <div class="item  active">
+                  <div class="row">
+                    <div class="col-md-3 inline">
+                      <a class="thumbnail thumbnailtext fixed-size"><img alt="" src="images/card2.png">Product</a>
+                    </div>          
+                    <div class="col-md-3 inline">
+                      <a class="thumbnail thumbnailtext"><img alt="" src="images/card2.png">Product</a>
+                    </div>
+                    <div class="col-md-3 inline">
+                      <a class="thumbnail thumbnailtext"><img alt="" src="images/card2.png">Product</a>
+                    </div>   
+                    <div class="col-md-3 inline">
+                      <a class="thumbnail thumbnailtext"><img alt="" src="images/card2.png">Product</a>
+                    </div>     
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <a class="thumbnail thumbnailtext"><img alt="" src="images/card2.png">Product</a>
+                    </div> 
+                    <div class="col-md-3">
+                      <a class="thumbnail thumbnailtext"><img alt="" src="images/card2.png">Product</a>
+                    </div>         
+                    <div class="col-md-3">
+                      <a class="thumbnail thumbnailtext"><img alt="" src="images/card2.png">Product</a>
+                    </div>
+                    <div class="col-md-3">
+                      <a class="thumbnail thumbnailtext"><img alt="" src="images/card2.png">Product</a>
+                    </div>        
+                  </div>
+                </div>
+              </div>
+              <a data-slide="prev" href="#media" class="left carousel-control">
+                <i class="fa fa-angle-left fa-2x" aria-hidden="true" style="color: #484848;"></i>
+              </a>
+              <a data-slide="next" href="#media" class="right carousel-control">
+                <i class="fa fa-angle-right fa-2x" aria-hidden="true" style="color: #484848;"></i>
+              </a>
+            </div>                          
+          </div>
+        </div>
+
+        <pre><code>&lt;div class="carousel slide media-carousel container" id="media" data-interval="false"&gt;
+  &lt;div class="carousel-inner"&gt;
+    &lt;div class="item  active"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-3 inline"&gt;
+          &lt;a class="thumbnail thumbnailtext fixed-size"&gt;&lt;img alt="" src="images/card2.png"&gt;Product&lt;/a&gt;
+        &lt;/div&gt;          
+        &lt;div class="col-md-3 inline"&gt;
+          &lt;a class="thumbnail thumbnailtext"&gt;&lt;img alt="" src="images/card2.png"&gt;Product&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="col-md-3 inline"&gt;
+          &lt;a class="thumbnail thumbnailtext"&gt;&lt;img alt="" src="images/card2.png"&gt;Product&lt;/a&gt;
+        &lt;/div&gt;   
+        &lt;div class="col-md-3 inline"&gt;
+          &lt;a class="thumbnail thumbnailtext"&gt;&lt;img alt="" src="images/card2.png"&gt;Product&lt;/a&gt;
+        &lt;/div&gt;     
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="item"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-3"&gt;
+          &lt;a class="thumbnail thumbnailtext"&gt;&lt;img alt="" src="images/card2.png"&gt;Product&lt;/a&gt;
+        &lt;/div&gt; 
+        &lt;div class="col-md-3"&gt;
+          &lt;a class="thumbnail thumbnailtext"&gt;&lt;img alt="" src="images/card2.png"&gt;Product&lt;/a&gt;
+        &lt;/div&gt;         
+        &lt;div class="col-md-3"&gt;
+          &lt;a class="thumbnail thumbnailtext"&gt;&lt;img alt="" src="images/card2.png"&gt;Product&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="col-md-3"&gt;
+          &lt;a class="thumbnail thumbnailtext"&gt;&lt;img alt="" src="images/card2.png"&gt;Product&lt;/a&gt;
+        &lt;/div&gt;        
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;a data-slide="prev" href="#media" class="left carousel-control"&gt;
+    &lt;i class="fa fa-angle-left fa-2x" aria-hidden="true" style="color: #484848;"&gt;&lt;/i&gt;
+  &lt;/a&gt;
+  &lt;a data-slide="next" href="#media" class="right carousel-control"&gt;
+    &lt;i clas>s="fa fa-angle-right fa-2x" aria-hidden="true" style="color: #484848;"&gt;&lt;/i&gt;
+  &lt;/a&gt;
+&lt;/div&gt;  </code></pre>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>Copyright © 2017 Hospice Source   |   3440 Sojourn Dr; Ste 120, Carrollton, TX 75006   |   P: (214) 572-0520 F: (214) 572-0511</footer>
+</body>
+</html>

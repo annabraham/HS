@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Cart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mini-Cart" transform="translate(-109.000000, -30.000000)">
+            <g id="Group-6" transform="translate(110.397112, 31.000000)">
+                <g id="Icon-Check" transform="translate(14.050542, 15.000000)">
+                    <rect id="16X16" x="0" y="0" width="41.0282165" height="40.880633"></rect>
+                    <g id="Shape-Check" transform="translate(5.128527, 10.220158)" fill="#85D27C">
+                        <path d="M30.7711624,1.27751978 C30.7711624,0.572328863 30.1967674,0 29.4890306,0 C29.1505479,0 28.850529,0.135417097 28.6197453,0.347485381 L28.6146168,0.342375302 L10.2878253,17.3870442 L2.18988106,9.31822929 C1.95653308,9.08572069 1.63600013,8.94263848 1.28213177,8.94263848 C0.574395032,8.94263848 0,9.51496734 0,10.2201583 C0,10.5727537 0.143598758,10.8921337 0.374382476,11.1246423 L9.34930485,20.0672807 C9.58265283,20.2972343 9.90318577,20.4403165 10.2570541,20.4403165 C10.5955369,20.4403165 10.89812,20.3048994 11.1263395,20.0902761 L11.131468,20.0953862 L30.3634445,2.21266426 L30.358316,2.20755418 C30.6096138,1.97249054 30.7711624,1.64544548 30.7711624,1.27751978" id="Page-1"></path>
+                    </g>
+                </g>
+                <ellipse id="Oval" stroke="#E1E2E3" stroke-width="1.4" cx="35.2870882" cy="35.1601563" rx="35.2870882" ry="35.1601563"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

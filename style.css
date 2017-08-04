@@ -1,0 +1,411 @@
+/* Font Styles */
+@font-face { 
+	font-family: "Open Sans"; 
+	src: url('fonts/OpenSans-Regular.ttf'); 
+}
+
+body {
+	font-family: "Open Sans";
+	color: #484848;
+	padding-top: 127px;
+}
+
+pre {
+	background-color: #E9E9E9;
+	color: #003E87;
+	border-color: #808080;
+}
+
+a {
+	color: #22A7F0;
+	font-weight: bold;
+}
+
+a:link, a:hover {
+	color: #22A7F0;
+}
+
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+header {
+	width: 100%;
+	height: 100%;
+	background: url(images/header.png) center center no-repeat;
+	background-size: cover;
+	font-size: 30px;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #003E87;
+	color: white;
+	height: 50px;
+	margin-top: 50px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+/* Formatting*/
+
+.alignment {
+	margin-top: -5px;
+}
+
+.small {
+	font-size: 12px;
+}
+
+.truckspace {
+	padding-right: 10px;
+}
+
+.phonespace {
+	padding-right: 5px;
+}
+
+.buffer {
+	margin-top: 20px;
+}
+
+/* Navigation */
+.navbar-default {
+	border-color: 1px solid #E9E9E9;
+	background-color: #F7F7F7;
+	padding-right: 20px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height:auto;
+	z-index: 3000;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	padding: 0;
+	margin-left: 15px;
+}
+
+.navbar-default__header {
+	float: right;
+}
+
+.navbar-default__collapse.in {
+	overflow-y: inherit;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 100%;
+}
+
+.navbar-collapse {
+	height: auto;
+}
+
+.navbar-text {
+	margin: 0;
+	padding-top: 10px;
+	float: left;
+}
+
+.navbar-default> .navbar-collapse > ul.nav > li > div{
+	color: #484848;
+	padding-top: 7px;
+	padding-left: 5px;
+}
+
+.navbar-default> .navbar-collapse > ul.nav > li {
+	font-size: 14px;
+}
+
+.navbar-light {
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-right: -35px;
+	z-index: 2000;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+
+.navbar-nav > li > a {
+	padding-top:10px !important; 
+	padding-bottom:10px !important;
+}
+
+.navbar {
+	min-height:32px !important
+}
+
+/* Tables */
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+	background-color: #F8FAFC;
+	border-style: none;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+	background-color: white;
+	border-style: none;
+}
+
+.table-striped>thead>tr>th{
+	background-color: #F7F7F7;
+	border-bottom: 2px solid #F7F7F7;
+}
+
+.navbar-light>.navbar-collapse>ul.nav> li a, li a.hover{
+	color: #003E87;
+	font-weight: bold;
+	padding-left: 10px;
+	margin-right: 10px;
+	background-color: white;
+
+}
+
+.navbar-light>.navbar-collapse>ul.nav>li a:focus {
+    border-bottom: 4px solid #85D27C;
+    background-color: white;
+    border-top: none;
+
+}
+
+.table >thead>tr>th{
+	background-color: #F7F7F7;
+	border-bottom: 2px solid #F7F7F7;
+}
+
+.tbl-heading {
+	font-size: 12px;
+	font-weight:bolder;
+	text-transform: uppercase;
+}
+
+.td-title {
+	border-bottom: 1px solid white;
+	font-weight: bolder;
+}
+
+ul.nav {
+    color: blue;
+    font-size: 16px;
+}
+
+/* Dropdown */
+.btn-default {
+	margin-top:3px;
+	text-align: left;
+	color: #484848;
+}
+
+#arrow {
+    margin-left: 10px;
+ }
+
+.truck-badge {
+	height: 20px; 
+	width: 20px; 
+	background-color: #85D27C; 
+	float: right; 
+	border-radius: 10px; 
+	color: white; 
+	font-size: 8pt; 
+	text-align: center; 
+	margin-top: -13px;
+	margin-right: 15px;
+	opacity: 1;
+	position: relative;
+	right: 10px;
+}
+
+/* Buttons */
+.btn-primary {
+	background-color: #85D27C;
+	border-color: #85D27C;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus,
+.btn-primary.active {
+	background-color: #85D27C;
+	border-color: #85D27C;
+}
+
+.btn-secondary, .btn-secondary:hover{
+	background-color: white;
+	border-color: #85D27C;
+	color: #85D27C;
+}
+
+/* Panel */
+.panel {
+	width: 250px;
+	background-color: #F7F7F7;
+}
+
+/* Card */
+.card {
+	height: 150px;
+	width: 170px;
+
+}
+.card>h5 {
+	text-align: center;
+}
+
+/* Cart */
+.cart {
+	border: 1px solid #E1E2E3;
+	width: 300px;
+	background-color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+/* Tabs */
+.nav-tabs > li > a, a.hover, a.active{
+	color: #484848;
+}
+
+.nav-tabs> li.active, a.focus {
+	border-top: 4px solid #85D27C;
+}
+
+/* remove border radius for the tab */
+#Tab1 .nav-pills > li > a {
+  border-radius: 0;
+  border-top: 1px black;
+  color: gray;
+}
+
+/* carousel */
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    max-width: 170px;
+    height: auto;
+}
+
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+
+
+
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: 80px;
+  background: #F7F7F7;
+  height: 40px;
+  width : 30px;
+  opacity: 1;
+  margin-top: 30px;
+  text-shadow: none;
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: 80px;
+  background: #F7F7F7;
+  height: 40px;
+  width : 30px;
+  opacity: 1;
+  margin-top: 30px;
+  text-shadow: none;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #F7F7F7;
+}
+.media-carousel .carousel-indicators .active .hover
+{
+  background: #F7F7F7;
+}
+
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+	border: 1px solid white;
+	border-bottom: 4px solid #85D27C;
+
+}
+
+a.thumbnail {
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+	border: 1px solid white;
+}
+
+a.thumbnail >img {
+	margin-bottom: 20px;
+}
+
+a.thumbnailtext, a.thumbnailtext:hover {
+	color: #484848;
+	text-align:center;
+	padding-bottom: 20px;
+	text-decoration: none;
+}
+
+a.thumbnail > a.thumbnailtext {
+	padding-top: 40px;
+}
+
+
+/* End carousel */
+
+
+@media only screen and (max-width: 768px) {
+	.truck-badge {float: left; left: 57px;}
+
+	body {
+		padding-top: 138px;
+	}
+
+	.navbar-center {
+		padding-top: 50px;
+	}
+
+
+}
